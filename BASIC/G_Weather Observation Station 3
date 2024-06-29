@@ -1,0 +1,15 @@
+Query a list of CITY names from STATION for cities that have an even ID number. Print the results in any order, but exclude duplicates from the answer.
+
+QUERY : select DISTINCT CITY from STATION where ID%2=0 ;
+        select DISTINCT CITY from STATION where MOD(ID,2)=0 ;
+
+Expected Output
+Aguanga 
+Alba 
+Albany 
+Amo 
+Andersonville 
+Archie 
+Athens 
+Atlantic Mine 
+Bainbridge 
