@@ -1,0 +1,10 @@
+Query a list of CITY and STATE from the STATION table.
+
+QUERY:  select CITY, STATE from STATION ; 
+Expected Output
+Acme LA 
+Addison MI 
+Agency MO 
+Aguanga CA 
+Alanson MI 
+MORE...
