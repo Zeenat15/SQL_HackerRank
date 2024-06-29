@@ -1,0 +1,23 @@
+Query the list of CITY names from STATIONwhich have vowels (i.e., a, e, i, o, and u)
+as both their first and last characters. Your result cannot contain duplicates.
+
+QUERY:
+
+SELECT DISTINCT CITY
+FROM STATION
+WHERE LOWER(LEFT(CITY, 1)) IN ('a', 'e', 'i', 'o', 'u')
+AND LOWER(RIGHT(CITY, 1)) IN ('a', 'e', 'i', 'o', 'u');
+
+Your Output (stdout)
+Acme 
+Aguanga 
+Alba 
+Aliso Viejo 
+Alpine 
+Amazonia 
+Amo 
+Andersonville 
+Archie 
+Arispe 
+Arkadelphia 
+Atlantic Mine 
